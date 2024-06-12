@@ -11,7 +11,7 @@ public class AddToCartTest extends BaseTest{
 	@Test
 	public void addToCartFromProductPage() throws InterruptedException {
 		home.AddToCart("btnFleeceJacket_id");
-		Thread.sleep(500);
+		//Thread.sleep(500);
 	}
 	
 	@Test
