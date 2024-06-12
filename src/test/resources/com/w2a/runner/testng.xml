@@ -20,4 +20,10 @@
     </classes>
   </test> <!-- Test -->
   
+  <test name="Add To Cart">
+    <classes>
+      <class name="com.w2a.testcases.AddToCartTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->

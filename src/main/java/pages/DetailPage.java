@@ -6,8 +6,8 @@ import com.w2a.base.Page;
 
 public class DetailPage extends Page {
 
-	public void AddToCart(String item) {
-		driver.findElement(By.cssSelector(item)).click();
+	public void AddToCart() {
+		click("btnAddToCart_id");
 	}
 	
 	public void removeItem() {
@@ -20,6 +20,8 @@ public class DetailPage extends Page {
 	}
 	
 	public void backToHomePage() {
-		driver.findElement(By.cssSelector("#back-to-products")).click();
+		click("linkBackToHomepage_id");
+		
+		
 	}
 }
